@@ -51,3 +51,5 @@ Purpose and Value
 
     They provide a foundation for more advanced topics like modern frameworks or backend development.
 
+https://www.freecodecamp.org/certification/ajchihiyah/javascript-algorithms-and-data-structures
+
