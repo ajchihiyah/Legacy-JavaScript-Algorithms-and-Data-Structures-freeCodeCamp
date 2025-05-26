@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <script src="script.js"></script>
+            <link rel="stylesheet" type="text/css" href="stylesheet.css">
+            <meta charset="UTF-8" />
+            <title>Caesar Cipher</title>
+        </head>
+
+    <body>
+
+        <div id="header">
+                <p>Caesar Cipher</p>
+        </div>
+
+        <div id="wrapper">
+            <form id="encryptForm">
+                <table>
+                <tr>
+                    <td><h2>Secret message:</h2></td>
+                    <td><textarea id="plaintext" cols="50" rows="10" placeholder="Plaintext/Ciphertext here"></textarea></td>
+                </tr>
+                <tr>
+                    <td><h2>Shift by key:</h2></td>
+                    <td><input type="text" id="key" placeholder="Key here" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                            <input type="button" value="Encrypt" class="button" onclick="runEncrypt(false);"/>
+                            <input type="button" value="Decrypt" class="button" onclick="runEncrypt(true);"/>
+                    </td>
+                    <td></td>
+                </tr>
+                </table>
+            </form>
+        </div>
+        
+        
+        
+        <div id="footer">
+            <h4>Coded by [ IC-XC Per ] | &copy2023</h4>	
+        </div>
+        
+        
+    </body>
+
+</html>

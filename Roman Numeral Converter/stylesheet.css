@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+   background: linear-gradient(to right, lightblue, rgb(153, 139, 141));
+}
+
+#content {
+  padding-top: 2em;
+  width: 400px;
+  margin: 0 auto;
+  height: 200px;
+  font-size: 40px;
+}
+
+#check, #clear {
+  font-size: 30px;
+   color: red;
+}
+
+#label, #result, #text {
+  color: blue;
+}
+
+#text, #result {
+  font-size: 30px;
+}
+
+
